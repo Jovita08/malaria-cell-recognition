@@ -1,6 +1,8 @@
+### EX NO : 08
+### DATE  : 
 # Deep Neural Network for Malaria Infected Cell Recognition
 
-## AIM:
+## AIM :
 
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
@@ -12,7 +14,7 @@ Malaria dataset of 27,558 cell images with an equal number of parasitized and un
 ## Neural Network Model:
 ![image](A.png)
 <br>
-## DESIGN STEPS:
+## DESIGN STEPS :
 
 ### STEP 1:
 Import tensorflow and preprocessing libraries.
@@ -33,9 +35,10 @@ Evaluate the model with the testing data using probability prediction(uninfected
 ### STEP 10:
 Fit the model and predict the sample input.
 
-## PROGRAM:
-NAME:-  VIRGIL JOVITA.A
-REG N0 :212221240026
+## PROGRAM :
+Developed By: **Virgil Jovita.A**
+<br/>
+Register Number: **212221240062**
 ```python
 import os
 import pandas as pd
@@ -163,24 +166,19 @@ plt.imshow(img)
 plt.show()
 ```
 
-## OUTPUT:
+## OUTPUT :
 
 ### Training Loss, Validation Loss Vs Iteration Plot:
 ![training](https://github.com/BHUVANESHWAR-BHUVIOP/malaria-cell-recognition/assets/94155099/b2d492d2-b2f8-4c0b-832c-8c9b033d4975)
 
-
-<br>
 ### Classification Report:
 
 ![cr](https://github.com/BHUVANESHWAR-BHUVIOP/malaria-cell-recognition/assets/94155099/a45cd961-7475-4095-9c6f-6f2ce59c5d18)
 
-
-<br>
 ### Confusion Matrix:
 
 ![cm](https://github.com/BHUVANESHWAR-BHUVIOP/malaria-cell-recognition/assets/94155099/47f1e68a-6ca6-452d-b808-831969947968)
 
-<br>
 ### New Sample Data Prediction:
 
 
@@ -188,5 +186,5 @@ plt.show()
 
 
 
-## RESULT:
+## RESULT :
 Thus, a deep neural network for Malaria infected cell recognition is developed and the performance is analyzed.
